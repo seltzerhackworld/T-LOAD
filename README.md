@@ -30,7 +30,7 @@ $ apt-get upgrade -y
 $ pkg install git -y
 ```
 ```
-$ git clone https://github.com/Stephin-Franklin/T-LOAD
+$ git clone https://github.com//T-LOAD
 ```
 ```
 $ ls
