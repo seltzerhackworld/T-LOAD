@@ -1,0 +1,45 @@
+name: CI
+
+on: [push]About T-LOAD :
+T-LOAD is a bash based script which modifies and changes your terminal from boring to awesome in just oneclick without any issue and without root. This tool works on both rooted Android device and Non-Rooted Android device.
+
+T-LOAD is available for
+Termux
+
+Kali Linux
+
+Installation and usage guide
+$ apt-get update -y
+
+$ apt-get upgrade -y
+
+$ pkg install git -y
+
+$ git clone https://github.com/seltzerhackworld/T-LOAD
+
+$ ls
+
+$ cd T-LOAD
+
+$ ls
+
+$ bash t-load.sh
+
+EXIT FROM TERMUX AFTER 5 SECONDS AND RE-OPEN IT when you see this type of text just exit from termux and re open it otherwise open a new session.
+Now you can see a new loading screen in termux and you can feel real hacking terminal Sound+New interface with Evil Eye banner.
+
+Note:- Don't delete any of the audio files from your sdcard/internal storage or else you cannot feel the terminal startup sound
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
