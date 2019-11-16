@@ -10,7 +10,7 @@
 ## About T-LOAD :
 
 T-LOAD is a bash based script which modifies and changes your terminal from boring to awesome in just oneclick without any issue and without root. This tool works on both rooted Android device and Non-Rooted Android device.
-[](https://github.com/Stephin-Franklin/T-LOAD/blob/master/Screenshot.png)
+[](https://github.com/seltzerhackworld/T-LOAD/blob/master/Screenshot.png)
 
 ### T-LOAD is available for
 
@@ -30,7 +30,7 @@ $ apt-get upgrade -y
 $ pkg install git -y
 ```
 ```
-$ git clone https://github.com/Stephin-Franklin/T-LOAD
+$ git clone https://github.com/seltzerhackworld/T-LOAD
 ```
 ```
 $ ls
